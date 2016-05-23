@@ -6,7 +6,7 @@ Get Ruby on Rails working with passenger and on Docker in a few minutes.
 
 ```bash
 docker build --tag webapp .
-docker run -p 80:80 -d -v $(pwd):/home/app/webapp webapp
+docker run -p 80:80 -v $(pwd):/home/app/webapp webapp
 docker-machine ip # note the ip address
 ```
 
