@@ -1,5 +1,7 @@
 # rails-on-docker
 
+![](rails-on-docker.png)
+
 Get Ruby on Rails working with passenger and on Docker in a few minutes.
 
 ## Usage
